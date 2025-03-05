@@ -30,6 +30,12 @@ namespace WebAPISampleProjectWIthVS2022
 
             app.MapControllers();
 
+            //Conventional based routing example
+            app.MapControllerRoute(
+                name: "default",
+                pattern: "api/{controller}/{action}/{id?}"
+                );
+
             app.Run();
         }
     }
