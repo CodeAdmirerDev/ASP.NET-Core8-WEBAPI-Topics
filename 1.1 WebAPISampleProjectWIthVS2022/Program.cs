@@ -1,4 +1,6 @@
 
+using WebAPISampleProjectWIthVS2022.Models.RepositoryPattren;
+
 namespace WebAPISampleProjectWIthVS2022
 {
     public class Program
@@ -14,6 +16,8 @@ namespace WebAPISampleProjectWIthVS2022
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            // Regiser the EmpRepository class with the DI container
+            builder.Services.AddSingleton<IEmpRepository, EmpRepository>();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
