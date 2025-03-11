@@ -65,5 +65,10 @@ namespace WebAPISampleProjectWIthVS2022.Models.RepositoryPattren
             _empList.Add(existingEmp);
 
         }
+
+        public Emp GetEmpByEmpIdOrName(int EmpNo, string empname)
+        {
+            return _empList.FirstOrDefault(e => e.EmpNo == EmpNo || e.EmpName == empname);
+        }
     }
 }

@@ -4,6 +4,7 @@
     {
         IEnumerable<Emp> GetAllEmp();
         Emp GetEmpByEmpId(int EmpNo);
+        Emp GetEmpByEmpIdOrName(int EmpNo, string empname);
         void AddEmp(Emp emp);
         void UpdateEmp(Emp emp);
         void DeleteEmp(int EmpNo);

@@ -62,8 +62,7 @@ namespace WebAPISampleProjectWIthVS2022.Controllers
         }
 
         //Delete emp
-        [HttpDelete]
-        [Route("{EmpNo}")]
+        [HttpDelete("DeleteEmp/{EmpNo}")]
         public IActionResult DeleteEmp(int EmpNo)
         {
             if (!_empRepository.IsEmpExists(EmpNo))
@@ -74,6 +73,75 @@ namespace WebAPISampleProjectWIthVS2022.Controllers
             return Ok($"Emp with Id {EmpNo} is deleted successfully");
         }
 
+        //Route data with single parameter
+
+        //[HttpGet]
+        //[Route("GetEmpDataById/{empid}")]
+        [HttpGet("GetEmpDataById/{empid}")]
+        public ActionResult<Emp> GetEmpDetailsByEmpId(int empid)
+        {
+            return _empRepository.GetEmpByEmpId(empid);
+        }
+
+        //Route data with multiple parameter
+        //[HttpGet("GetEmpDataByEmpIdAndName/{empid}/{empname}")]
+        [HttpGet("GetEmpDataByEmpIdAndName/EmpId/{empid}/EmpName/{empname}")]
+        public ActionResult<Emp> GetEmpDetailsByEmpIdAndName(int empid, string empname)
+        {
+            return _empRepository.GetEmpByEmpIdOrName(empid,empname);
+        }
+
+        //Using query params
+
+        [HttpGet("GetEmpDataById")]
+        public ActionResult<Emp> GetEmpDetailsByEmpName([FromQuery]int empid)
+        {
+            return _empRepository.GetEmpByEmpIdOrName(empid, "empname");
+        }
+
+        [HttpGet("GetEmpDataByEmpIdAndNameUsingQueryParams")]
+        public ActionResult<Emp> GetEmpDataByEmpIdAndNameUsingQueryParams([FromQuery] int empid, [FromQuery] string empname)
+        {
+            return _empRepository.GetEmpByEmpIdOrName(empid, empname);
+        }
+
+        //Using query strings with Model binding
+        [HttpGet("InsertEmpDataUsingModelBinding")]
+        public ActionResult<Emp> InsertEmpDataUsingModelBinding([FromQuery] Emp emp)
+        {
+             _empRepository.AddEmp(emp);
+
+            return _empRepository.GetEmpByEmpId(emp.EmpNo);
+        }
+
+        //Reading Query string data from HttpContex
+
+        [HttpGet("GetEmpDataUsingHttpContext")]
+        public ActionResult<Emp> SearchEmp()
+        {
+
+            var empName = HttpContext.Request.Query["empName"].ToString();
+            var empId = int.Parse(HttpContext.Request.Query["empid"].ToString());
+
+            if (empName == "" || empName == null)
+            {
+                return BadRequest("EmpName is required");
+            }
+            if (empId == 0)
+            {
+                return BadRequest("EmpId is required");
+            }
+
+            return _empRepository.GetEmpByEmpIdOrName(empId, empName);
+        }
+
+        //Using Route data with Query strings 
+
+        [HttpGet("GetTopEmp/{empid}")]
+        public ActionResult<Emp> GetTopEmp([FromRoute]int empid, [FromQuery] string? empname)
+        {
+            return _empRepository.GetEmpByEmpIdOrName(empid, empname);
+        }
 
 
     }
