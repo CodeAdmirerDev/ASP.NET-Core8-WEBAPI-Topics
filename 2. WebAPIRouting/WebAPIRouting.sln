@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPISampleProjectWIthVS2022", "WebAPISampleProjectWIthVS2022.csproj", "{D4B2793F-4AEF-42EB-84D2-C06DA31B428D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPIRouting", "WebAPIRouting.csproj", "{D4B2793F-4AEF-42EB-84D2-C06DA31B428D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

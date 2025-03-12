@@ -1,0 +1,580 @@
+[
+  {
+    "ContainingType": "WebAPISampleProjectWIthVS2022.Controllers.RoutingExampleController",
+    "Method": "GetCourse",
+    "RelativePath": "{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPISampleProjectWIthVS2022.Controllers.DemoController",
+    "Method": "Get",
+    "RelativePath": "api/Demo/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPISampleProjectWIthVS2022.Controllers.DemoController",
+    "Method": "GetUserCount",
+    "RelativePath": "api/Demo/GetUserCount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usercount",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPISampleProjectWIthVS2022.Controllers.EmpController",
+    "Method": "GetEmpList",
+    "RelativePath": "api/Emp",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebAPISampleProjectWIthVS2022.Models.Emp, WebAPIRouting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPISampleProjectWIthVS2022.Controllers.EmpController",
+    "Method": "PostEmp",
+    "RelativePath": "api/Emp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "emp",
+        "Type": "WebAPISampleProjectWIthVS2022.Models.Emp",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPISampleProjectWIthVS2022.Controllers.EmpController",
+    "Method": "GetEmp",
+    "RelativePath": "api/Emp/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPISampleProjectWIthVS2022.Models.Emp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPISampleProjectWIthVS2022.Controllers.EmpController",
+    "Method": "PutEmp",
+    "RelativePath": "api/Emp/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "emp",
+        "Type": "WebAPISampleProjectWIthVS2022.Models.Emp",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPISampleProjectWIthVS2022.Controllers.EmpController",
+    "Method": "DeleteEmp",
+    "RelativePath": "api/Emp/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPISampleProjectWIthVS2022.Controllers.EmpRepositoryExampleController",
+    "Method": "AddEmp",
+    "RelativePath": "api/EmpRepositoryExample",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "emp",
+        "Type": "WebAPISampleProjectWIthVS2022.Models.Emp",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPISampleProjectWIthVS2022.Controllers.EmpRepositoryExampleController",
+    "Method": "UpdateEmp",
+    "RelativePath": "api/EmpRepositoryExample",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "emp",
+        "Type": "WebAPISampleProjectWIthVS2022.Models.Emp",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPISampleProjectWIthVS2022.Controllers.EmpRepositoryExampleController",
+    "Method": "GetEmpByEmpNo",
+    "RelativePath": "api/EmpRepositoryExample/{EmpNo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EmpNo",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPISampleProjectWIthVS2022.Controllers.EmpRepositoryExampleController",
+    "Method": "GetAllEmp",
+    "RelativePath": "api/EmpRepositoryExample/all-emps",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPISampleProjectWIthVS2022.Controllers.EmpRepositoryExampleController",
+    "Method": "GetEmpDataList",
+    "RelativePath": "api/EmpRepositoryExample/AllEmployessData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebAPISampleProjectWIthVS2022.Models.Emp, WebAPIRouting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPISampleProjectWIthVS2022.Controllers.EmpRepositoryExampleController",
+    "Method": "GetEmpDataList",
+    "RelativePath": "api/EmpRepositoryExample/GetAllEmp",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebAPISampleProjectWIthVS2022.Models.Emp, WebAPIRouting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPISampleProjectWIthVS2022.Controllers.EmpRepositoryExampleController",
+    "Method": "GetEmpDetailsByEmpIdAndName",
+    "RelativePath": "api/EmpRepositoryExample/GetEmpDataByEmpIdAndName/EmpId/{empid}/EmpName/{empname}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "empname",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPISampleProjectWIthVS2022.Models.Emp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPISampleProjectWIthVS2022.Controllers.EmpRepositoryExampleController",
+    "Method": "GetEmpDataByEmpIdAndNameUsingQueryParams",
+    "RelativePath": "api/EmpRepositoryExample/GetEmpDataByEmpIdAndNameUsingQueryParams",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "empname",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPISampleProjectWIthVS2022.Models.Emp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPISampleProjectWIthVS2022.Controllers.EmpRepositoryExampleController",
+    "Method": "GetEmpDetailsByEmpName",
+    "RelativePath": "api/EmpRepositoryExample/GetEmpDataById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPISampleProjectWIthVS2022.Models.Emp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPISampleProjectWIthVS2022.Controllers.EmpRepositoryExampleController",
+    "Method": "GetEmpDetailsByEmpId",
+    "RelativePath": "api/EmpRepositoryExample/GetEmpDataById/{empid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPISampleProjectWIthVS2022.Models.Emp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPISampleProjectWIthVS2022.Controllers.EmpRepositoryExampleController",
+    "Method": "SearchEmp",
+    "RelativePath": "api/EmpRepositoryExample/GetEmpDataUsingHttpContext",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPISampleProjectWIthVS2022.Models.Emp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPISampleProjectWIthVS2022.Controllers.EmpRepositoryExampleController",
+    "Method": "GetEmpDataList",
+    "RelativePath": "api/EmpRepositoryExample/GetEmployessData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebAPISampleProjectWIthVS2022.Models.Emp, WebAPIRouting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPISampleProjectWIthVS2022.Controllers.EmpRepositoryExampleController",
+    "Method": "GetTopEmp",
+    "RelativePath": "api/EmpRepositoryExample/GetTopEmp/{empid}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "empid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "empname",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPISampleProjectWIthVS2022.Models.Emp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPISampleProjectWIthVS2022.Controllers.EmpRepositoryExampleController",
+    "Method": "InsertEmpDataUsingModelBinding",
+    "RelativePath": "api/EmpRepositoryExample/InsertEmpDataUsingModelBinding",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EmpNo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "EmpName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Job",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Salary",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebAPISampleProjectWIthVS2022.Models.Emp",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPISampleProjectWIthVS2022.Controllers.RoutingExampleController",
+    "Method": "GetAllCourseInformation",
+    "RelativePath": "Course/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPISampleProjectWIthVS2022.Controllers.RoutingExampleController",
+    "Method": "GetCourseDetailsById",
+    "RelativePath": "Course/ById/{courseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebAPISampleProjectWIthVS2022.Controllers.EmpRepositoryExampleController",
+    "Method": "DeleteEmp",
+    "RelativePath": "DeleteEmp/{EmpNo}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EmpNo",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPISampleProjectWIthVS2022.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WebAPISampleProjectWIthVS2022.WeatherForecast, WebAPIRouting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

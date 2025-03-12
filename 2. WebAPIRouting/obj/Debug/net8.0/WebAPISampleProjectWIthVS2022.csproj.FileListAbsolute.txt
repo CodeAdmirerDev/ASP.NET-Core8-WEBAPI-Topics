@@ -1,0 +1,66 @@
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\bin\Debug\net8.0\appsettings.Development.json
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\bin\Debug\net8.0\appsettings.json
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\bin\Debug\net8.0\WebAPISampleProjectWIthVS2022.exe
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\bin\Debug\net8.0\WebAPISampleProjectWIthVS2022.deps.json
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\bin\Debug\net8.0\WebAPISampleProjectWIthVS2022.runtimeconfig.json
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\bin\Debug\net8.0\WebAPISampleProjectWIthVS2022.dll
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\bin\Debug\net8.0\WebAPISampleProjectWIthVS2022.pdb
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\bin\Debug\net8.0\Microsoft.OpenApi.dll
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\WebAPISampleProjectWIthVS2022.csproj.AssemblyReference.cache
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\WebAPISampleProjectWIthVS2022.GeneratedMSBuildEditorConfig.editorconfig
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\WebAPISampleProjectWIthVS2022.AssemblyInfoInputs.cache
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\WebAPISampleProjectWIthVS2022.AssemblyInfo.cs
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\WebAPISampleProjectWIthVS2022.csproj.CoreCompileInputs.cache
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\WebAPISampleProjectWIthVS2022.MvcApplicationPartsAssemblyInfo.cs
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\WebAPISampleProjectWIthVS2022.MvcApplicationPartsAssemblyInfo.cache
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\WebAPISampleProjectWIthVS2022.sourcelink.json
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\staticwebassets.build.json
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\staticwebassets.development.json
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\staticwebassets\msbuild.WebAPISampleProjectWIthVS2022.Microsoft.AspNetCore.StaticWebAssets.props
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\staticwebassets\msbuild.build.WebAPISampleProjectWIthVS2022.props
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebAPISampleProjectWIthVS2022.props
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebAPISampleProjectWIthVS2022.props
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\staticwebassets.pack.json
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\scopedcss\bundle\WebAPISampleProjectWIthVS2022.styles.css
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\WebAPISa.4A3F81EE.Up2Date
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\WebAPISampleProjectWIthVS2022.dll
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\refint\WebAPISampleProjectWIthVS2022.dll
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\WebAPISampleProjectWIthVS2022.pdb
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\WebAPISampleProjectWIthVS2022.genruntimeconfig.cache
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\ref\WebAPISampleProjectWIthVS2022.dll
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\bin\Debug\net8.0\appsettings.Development.json
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\bin\Debug\net8.0\appsettings.json
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\bin\Debug\net8.0\WebAPISampleProjectWIthVS2022.exe
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\bin\Debug\net8.0\WebAPISampleProjectWIthVS2022.deps.json
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\bin\Debug\net8.0\WebAPISampleProjectWIthVS2022.runtimeconfig.json
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\bin\Debug\net8.0\WebAPISampleProjectWIthVS2022.dll
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\bin\Debug\net8.0\WebAPISampleProjectWIthVS2022.pdb
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\bin\Debug\net8.0\Microsoft.OpenApi.dll
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\WebAPISampleProjectWIthVS2022.csproj.AssemblyReference.cache
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\WebAPISampleProjectWIthVS2022.GeneratedMSBuildEditorConfig.editorconfig
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\WebAPISampleProjectWIthVS2022.AssemblyInfoInputs.cache
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\WebAPISampleProjectWIthVS2022.AssemblyInfo.cs
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\WebAPISampleProjectWIthVS2022.csproj.CoreCompileInputs.cache
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\WebAPISampleProjectWIthVS2022.MvcApplicationPartsAssemblyInfo.cs
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\WebAPISampleProjectWIthVS2022.MvcApplicationPartsAssemblyInfo.cache
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\WebAPISampleProjectWIthVS2022.sourcelink.json
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\staticwebassets.build.json
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\staticwebassets.development.json
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\staticwebassets\msbuild.WebAPISampleProjectWIthVS2022.Microsoft.AspNetCore.StaticWebAssets.props
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\staticwebassets\msbuild.build.WebAPISampleProjectWIthVS2022.props
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebAPISampleProjectWIthVS2022.props
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebAPISampleProjectWIthVS2022.props
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\staticwebassets.pack.json
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\scopedcss\bundle\WebAPISampleProjectWIthVS2022.styles.css
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\WebAPISa.4A3F81EE.Up2Date
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\WebAPISampleProjectWIthVS2022.dll
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\refint\WebAPISampleProjectWIthVS2022.dll
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\WebAPISampleProjectWIthVS2022.pdb
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\WebAPISampleProjectWIthVS2022.genruntimeconfig.cache
+F:\Suri practies\ASP.NET-Core8-WEBAPI-Topics\1.1 WebAPISampleProjectWIthVS2022\obj\Debug\net8.0\ref\WebAPISampleProjectWIthVS2022.dll

@@ -1,0 +1,213 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Suri practies\\ASP.NET-Core8-WEBAPI-Topics\\2. WebAPIRouting\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B2793F-4AEF-42EB-84D2-C06DA31B428D}|WebAPIRouting.csproj|f:\\suri practies\\asp.net-core8-webapi-topics\\2. webapirouting\\webapirouting.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{D4B2793F-4AEF-42EB-84D2-C06DA31B428D}|WebAPIRouting.csproj|solutionrelative:webapirouting.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B2793F-4AEF-42EB-84D2-C06DA31B428D}|WebAPIRouting.csproj|f:\\suri practies\\asp.net-core8-webapi-topics\\2. webapirouting\\controllers\\emprepositoryexamplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B2793F-4AEF-42EB-84D2-C06DA31B428D}|WebAPIRouting.csproj|solutionrelative:controllers\\emprepositoryexamplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B2793F-4AEF-42EB-84D2-C06DA31B428D}|WebAPIRouting.csproj|f:\\suri practies\\asp.net-core8-webapi-topics\\2. webapirouting\\controllers\\routingexamplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B2793F-4AEF-42EB-84D2-C06DA31B428D}|WebAPIRouting.csproj|solutionrelative:controllers\\routingexamplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B2793F-4AEF-42EB-84D2-C06DA31B428D}|WebAPIRouting.csproj|f:\\suri practies\\asp.net-core8-webapi-topics\\2. webapirouting\\controllers\\empcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B2793F-4AEF-42EB-84D2-C06DA31B428D}|WebAPIRouting.csproj|solutionrelative:controllers\\empcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B2793F-4AEF-42EB-84D2-C06DA31B428D}|WebAPIRouting.csproj|f:\\suri practies\\asp.net-core8-webapi-topics\\2. webapirouting\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B2793F-4AEF-42EB-84D2-C06DA31B428D}|WebAPIRouting.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B2793F-4AEF-42EB-84D2-C06DA31B428D}|WebAPIRouting.csproj|f:\\suri practies\\asp.net-core8-webapi-topics\\2. webapirouting\\models\\emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B2793F-4AEF-42EB-84D2-C06DA31B428D}|WebAPIRouting.csproj|solutionrelative:models\\emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B2793F-4AEF-42EB-84D2-C06DA31B428D}|WebAPIRouting.csproj|f:\\suri practies\\asp.net-core8-webapi-topics\\2. webapirouting\\models\\repositorypattren\\iemprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B2793F-4AEF-42EB-84D2-C06DA31B428D}|WebAPIRouting.csproj|solutionrelative:models\\repositorypattren\\iemprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B2793F-4AEF-42EB-84D2-C06DA31B428D}|WebAPIRouting.csproj|f:\\suri practies\\asp.net-core8-webapi-topics\\2. webapirouting\\models\\repositorypattren\\emprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B2793F-4AEF-42EB-84D2-C06DA31B428D}|WebAPIRouting.csproj|solutionrelative:models\\repositorypattren\\emprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B2793F-4AEF-42EB-84D2-C06DA31B428D}|WebAPIRouting.csproj|f:\\suri practies\\asp.net-core8-webapi-topics\\2. webapirouting\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D4B2793F-4AEF-42EB-84D2-C06DA31B428D}|WebAPIRouting.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B2793F-4AEF-42EB-84D2-C06DA31B428D}|WebAPIRouting.csproj|f:\\suri practies\\asp.net-core8-webapi-topics\\2. webapirouting\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B2793F-4AEF-42EB-84D2-C06DA31B428D}|WebAPIRouting.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B2793F-4AEF-42EB-84D2-C06DA31B428D}|WebAPIRouting.csproj|f:\\suri practies\\asp.net-core8-webapi-topics\\2. webapirouting\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B2793F-4AEF-42EB-84D2-C06DA31B428D}|WebAPIRouting.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4B2793F-4AEF-42EB-84D2-C06DA31B428D}|WebAPIRouting.csproj|f:\\suri practies\\asp.net-core8-webapi-topics\\2. webapirouting\\controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D4B2793F-4AEF-42EB-84D2-C06DA31B428D}|WebAPIRouting.csproj|solutionrelative:controllers\\democontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoutingExampleController.cs",
+              "DocumentMoniker": "F:\\Suri practies\\ASP.NET-Core8-WEBAPI-Topics\\2. WebAPIRouting\\Controllers\\RoutingExampleController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RoutingExampleController.cs",
+              "ToolTip": "F:\\Suri practies\\ASP.NET-Core8-WEBAPI-Topics\\2. WebAPIRouting\\Controllers\\RoutingExampleController.cs",
+              "RelativeToolTip": "Controllers\\RoutingExampleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T17:36:00.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmpController.cs",
+              "DocumentMoniker": "F:\\Suri practies\\ASP.NET-Core8-WEBAPI-Topics\\2. WebAPIRouting\\Controllers\\EmpController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmpController.cs",
+              "ToolTip": "F:\\Suri practies\\ASP.NET-Core8-WEBAPI-Topics\\2. WebAPIRouting\\Controllers\\EmpController.cs",
+              "RelativeToolTip": "Controllers\\EmpController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwBkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T17:19:37.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Suri practies\\ASP.NET-Core8-WEBAPI-Topics\\2. WebAPIRouting\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "F:\\Suri practies\\ASP.NET-Core8-WEBAPI-Topics\\2. WebAPIRouting\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwCIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T17:51:59.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Emp.cs",
+              "DocumentMoniker": "F:\\Suri practies\\ASP.NET-Core8-WEBAPI-Topics\\2. WebAPIRouting\\Models\\Emp.cs",
+              "RelativeDocumentMoniker": "Models\\Emp.cs",
+              "ToolTip": "F:\\Suri practies\\ASP.NET-Core8-WEBAPI-Topics\\2. WebAPIRouting\\Models\\Emp.cs",
+              "RelativeToolTip": "Models\\Emp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T17:16:34.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebAPIRouting.http",
+              "DocumentMoniker": "F:\\Suri practies\\ASP.NET-Core8-WEBAPI-Topics\\2. WebAPIRouting\\WebAPIRouting.http",
+              "RelativeDocumentMoniker": "WebAPIRouting.http",
+              "ToolTip": "F:\\Suri practies\\ASP.NET-Core8-WEBAPI-Topics\\2. WebAPIRouting\\WebAPIRouting.http",
+              "RelativeToolTip": "WebAPIRouting.http",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-03-04T18:38:49.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmpRepositoryExampleController.cs",
+              "DocumentMoniker": "F:\\Suri practies\\ASP.NET-Core8-WEBAPI-Topics\\2. WebAPIRouting\\Controllers\\EmpRepositoryExampleController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmpRepositoryExampleController.cs",
+              "ToolTip": "F:\\Suri practies\\ASP.NET-Core8-WEBAPI-Topics\\2. WebAPIRouting\\Controllers\\EmpRepositoryExampleController.cs",
+              "RelativeToolTip": "Controllers\\EmpRepositoryExampleController.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAswIwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T18:39:46.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IEmpRepository.cs",
+              "DocumentMoniker": "F:\\Suri practies\\ASP.NET-Core8-WEBAPI-Topics\\2. WebAPIRouting\\Models\\RepositoryPattren\\IEmpRepository.cs",
+              "RelativeDocumentMoniker": "Models\\RepositoryPattren\\IEmpRepository.cs",
+              "ToolTip": "F:\\Suri practies\\ASP.NET-Core8-WEBAPI-Topics\\2. WebAPIRouting\\Models\\RepositoryPattren\\IEmpRepository.cs",
+              "RelativeToolTip": "Models\\RepositoryPattren\\IEmpRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T18:10:20.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmpRepository.cs",
+              "DocumentMoniker": "F:\\Suri practies\\ASP.NET-Core8-WEBAPI-Topics\\2. WebAPIRouting\\Models\\RepositoryPattren\\EmpRepository.cs",
+              "RelativeDocumentMoniker": "Models\\RepositoryPattren\\EmpRepository.cs",
+              "ToolTip": "F:\\Suri practies\\ASP.NET-Core8-WEBAPI-Topics\\2. WebAPIRouting\\Models\\RepositoryPattren\\EmpRepository.cs",
+              "RelativeToolTip": "Models\\RepositoryPattren\\EmpRepository.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAA6wEYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T18:16:19.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\Suri practies\\ASP.NET-Core8-WEBAPI-Topics\\2. WebAPIRouting\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "F:\\Suri practies\\ASP.NET-Core8-WEBAPI-Topics\\2. WebAPIRouting\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-04T18:24:49.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "F:\\Suri practies\\ASP.NET-Core8-WEBAPI-Topics\\2. WebAPIRouting\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "F:\\Suri practies\\ASP.NET-Core8-WEBAPI-Topics\\2. WebAPIRouting\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T18:38:23.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "F:\\Suri practies\\ASP.NET-Core8-WEBAPI-Topics\\2. WebAPIRouting\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "F:\\Suri practies\\ASP.NET-Core8-WEBAPI-Topics\\2. WebAPIRouting\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwAYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T18:22:45.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DemoController.cs",
+              "DocumentMoniker": "F:\\Suri practies\\ASP.NET-Core8-WEBAPI-Topics\\2. WebAPIRouting\\Controllers\\DemoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DemoController.cs",
+              "ToolTip": "F:\\Suri practies\\ASP.NET-Core8-WEBAPI-Topics\\2. WebAPIRouting\\Controllers\\DemoController.cs",
+              "RelativeToolTip": "Controllers\\DemoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T18:57:10.988Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

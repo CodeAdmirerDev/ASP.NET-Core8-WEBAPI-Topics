@@ -5,7 +5,7 @@ using WebAPISampleProjectWIthVS2022.Models.RepositoryPattren;
 
 namespace WebAPISampleProjectWIthVS2022.Controllers
 {
-    [Route("api/[controller]")] //it will the base route for all the action methods in this controller
+    [Route("api/[controller]")] //it will the base route for all the action methods in this controller and it is also called Route prefix
     [ApiController]
     public class EmpRepositoryExampleController : ControllerBase
     {
@@ -17,7 +17,8 @@ namespace WebAPISampleProjectWIthVS2022.Controllers
         }
 
         //Retrive all emp
-        [HttpGet]
+        [HttpGet("all-emps")]
+        //[HttpGet("[action]")] --> Route token usage
         public IActionResult GetAllEmp()
         {
             var emps = _empRepository.GetAllEmp();
@@ -26,7 +27,7 @@ namespace WebAPISampleProjectWIthVS2022.Controllers
 
         //Retrive emp by empno
         [HttpGet]
-        [Route("{EmpNo}")]
+        [Route("{EmpNo:int:min(1000)}")] //Using route constrains eg => :int for only integer input for empno
         public IActionResult GetEmpByEmpNo(int EmpNo)
         {
             var emp = _empRepository.GetEmpByEmpId(EmpNo);
@@ -62,7 +63,7 @@ namespace WebAPISampleProjectWIthVS2022.Controllers
         }
 
         //Delete emp
-        [HttpDelete("DeleteEmp/{EmpNo}")]
+        [HttpDelete("~/DeleteEmp/{EmpNo}")] //Placing the ~ will remove the route prefix
         public IActionResult DeleteEmp(int EmpNo)
         {
             if (!_empRepository.IsEmpExists(EmpNo))
@@ -85,7 +86,7 @@ namespace WebAPISampleProjectWIthVS2022.Controllers
 
         //Route data with multiple parameter
         //[HttpGet("GetEmpDataByEmpIdAndName/{empid}/{empname}")]
-        [HttpGet("GetEmpDataByEmpIdAndName/EmpId/{empid}/EmpName/{empname}")]
+        [HttpGet("GetEmpDataByEmpIdAndName/EmpId/{empid:int:range(100,1000)}/EmpName/{empname:alpha:minlength(6):maxlength(10)}")]
         public ActionResult<Emp> GetEmpDetailsByEmpIdAndName(int empid, string empname)
         {
             return _empRepository.GetEmpByEmpIdOrName(empid,empname);
@@ -143,6 +144,15 @@ namespace WebAPISampleProjectWIthVS2022.Controllers
             return _empRepository.GetEmpByEmpIdOrName(empid, empname);
         }
 
+        //Multiple URLs on single resource
+
+        [HttpGet("GetAllEmp")]
+        [HttpGet("AllEmployessData")]
+        [HttpGet("GetEmployessData")]
+        public ActionResult<IEnumerable<Emp>> GetEmpDataList()
+        {
+            return _empRepository.GetAllEmp().ToList();
+        }
 
     }
 }
