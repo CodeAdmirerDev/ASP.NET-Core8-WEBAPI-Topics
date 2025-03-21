@@ -19,3 +19,6 @@ WebAPISampleProject/.vs/WebAPISampleProject/v17/.suo
 /2. WebAPIRouting/.vs/WebAPIRouting/v17/DocumentLayout.json
 /2. WebAPIRouting/obj/Debug/net8.0/WebAPIRouting.AssemblyInfo.cs
 /2. WebAPIRouting/obj/Debug/net8.0/WebAPIRouting.AssemblyInfoInputs.cache
+/AutoMapperUsageInWebAPI/.vs
+/AutoMapperUsageInWebAPI/bin/Debug/net8.0
+/AutoMapperUsageInWebAPI/obj
