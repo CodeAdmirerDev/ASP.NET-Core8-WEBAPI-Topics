@@ -24,7 +24,7 @@ namespace AutoMapperUsageInWebAPI.Models
         //Inrernal or confidential data fields be hidden from the customers
         [Column(TypeName = "decimal(18, 2)")]
         public decimal SupplierPrice { get; set; }
-        public string SupplierName { get; set; }
+        public string? SupplierName { get; set; }
         [Range(0, int.MaxValue)]
         public int StockQuantity { get; set; }
 

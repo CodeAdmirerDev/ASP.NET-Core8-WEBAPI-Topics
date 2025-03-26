@@ -29,10 +29,16 @@ namespace AutoMapperUsageInWebAPI
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            // Register the DbContext with the connection string
+            // Register ProductDbContext with the EcommorceConfig connection string
             builder.Services.AddDbContext<ProductDbContext>(options =>
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("EcommorceConfig"));
+            });
+
+            // Register EComDBContext with the EComDBConfig connection string
+            builder.Services.AddDbContext<EComDBContext>(options =>
+            {
+                options.UseSqlServer(builder.Configuration.GetConnectionString("EComDBConfig"));
             });
 
             var app = builder.Build();
