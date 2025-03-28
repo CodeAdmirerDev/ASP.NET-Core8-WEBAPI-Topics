@@ -3,6 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AutoMapperUsageInWebAPI.Models
 {
+
+    //The Address entity will contains basic address information and complex type for the Customer entity
     public class Address
     {
         [Key]
@@ -20,6 +22,7 @@ namespace AutoMapperUsageInWebAPI.Models
         public int CustomerId { get; set; }
 
         [ForeignKey("CustomerId")]
+        // Complex type : Address is a complex type for the Customer entity
         public Customer Customer { get; set; } // Navigation property for the Customer
     }
 }

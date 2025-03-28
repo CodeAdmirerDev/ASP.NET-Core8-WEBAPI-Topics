@@ -27,15 +27,55 @@ namespace AutoMapperUsageInWebAPI.MappingProfiles
                 .ForMember(dest => dest.OrderItems, opt => opt.MapFrom(src => src.OrderItems));
 
             CreateMap<OrderItem,OrderItemDTO>()
-                .ForMember(dest => dest.ProductName, opt => opt.MapFrom(src => src.Product.Name))
+                .ForMember(dest => dest.ProductName, act=> act.NullSubstitute("P123565"))
                 .ForMember(dest => dest.TotalPrice, opt => opt.MapFrom(src => src.Quantity * src.ProductPrice ));
 
             CreateMap<Address, AddressDTO>();
             
-            CreateMap<CreateOrderItemDTO, OrderItem>();
             
             CreateMap<CreateOrderDTO, Order>()
                 .ForMember(dest => dest.OrderItems, opt => opt.MapFrom(src => src.OrderItems));
+
+            // Complex --> Primitive (Address -> PrimitiveAddressDTO)
+            // Map the Customer to separate primitive properties in the AddressDTO
+            // Mapping from Address (with Complex Customer) to PrimitiveAddressDTO(With Primivite types)
+
+            CreateMap<Address, PrimitiveAddressDTO>()
+                .ForMember(dest => dest.CustomerId, opt => opt.MapFrom(src => src.Customer.CustomerId))
+
+                 //check a pre- condition before reading the source value
+                 .ForMember(dest => dest.PhoneNumber, opt =>
+                 {
+                     opt.PreCondition(src => src.Customer != null);
+                     opt.MapFrom(src => src.Customer.PhoneNumber);
+
+                 } )
+                  .ForMember(dest => dest.Email, opt => opt.MapFrom(src => src.Customer.Email))
+                   .ForMember(dest => dest.LastName, opt => { 
+                   opt.PreCondition(src => src.Customer.LastName.Length>4);
+                       opt.MapFrom(src => src.Customer.LastName);
+
+                   })
+                   .ForMember(dest => dest.FirstName, opt => opt.Ignore());//It will ignore the first name while mapping
+
+            // Primitive --> Complex (PrimitiveAddressDTO -> Address)
+            // Map the separate primitive properties in the PrimitiveAddressDTO to the Customer
+            // Mapping from PrimitiveAddressDTO(With Primivite types) to Address (with Complex Customer)
+
+            CreateMap<PrimitiveAddressDTO, Address>()
+                .ForMember(dest => dest.Customer, opt => opt.MapFrom(src => new Customer
+                {
+                    CustomerId = src.CustomerId,
+                    PhoneNumber = src.PhoneNumber,
+                    Email = src.Email,
+                    LastName = src.LastName,
+                    FirstName = src.FirstName
+                }));
+
+            //Reverse mapping in AutoMapper
+            CreateMap<CreateOrderItemDTO, OrderItem>().ReverseMap();
+
+
         }
     }
 }

@@ -23,7 +23,8 @@ namespace AutoMapperUsageInWebAPI.MappingProfiles
 
                 destinationMember => destinationMember.ProductDescription,
                 memberOptions => memberOptions.MapFrom(sourceMember => sourceMember.Description)
-                );
+                ).ForMember(dest=> dest.CreatedDateTime, act=> act.NullSubstitute(System.DateTime.Now))//Using AutoMapper to set the default value using NullSubstitute 
+                ;
 
             //This mapping is used when a new prodcut is being created from the data provided by an admin or any api user
 
