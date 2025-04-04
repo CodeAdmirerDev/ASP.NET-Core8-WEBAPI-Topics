@@ -11,7 +11,7 @@ namespace DemoServerAppForHMAC.Models.Services
             _serverAppDbContext = serverAppDbContext;
         }
 
-        public async Task<byte[]> GetClientSecrectKeyInfo(string clientId)
+        public async Task<string> GetClientSecrectKeyInfoAsync(string clientId)
         {
                 var client =  _serverAppDbContext.ClientInfos
                 .AsNoTracking()

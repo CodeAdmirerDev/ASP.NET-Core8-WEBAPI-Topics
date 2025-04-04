@@ -15,11 +15,11 @@ namespace DemoServerAppForHMAC.Models
         public string ClientName { get; set; }
         [Required]
         [MaxLength(1000)]
-        public byte[] ClientSecretKey { get; set; }//Password
+        public string ClientSecretKey { get; set; }//Password
 
         [Required]
         [MaxLength(1000)]
-        public byte[] ClientSecretSalt { get; set; }//Password
+        public string ClientSecretSalt { get; set; }//Password
 
     }
 }

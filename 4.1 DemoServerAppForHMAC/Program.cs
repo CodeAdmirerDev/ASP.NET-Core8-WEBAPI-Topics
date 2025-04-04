@@ -1,5 +1,6 @@
 
 using DemoServerAppForHMAC.Context;
+using DemoServerAppForHMAC.Middleware;
 using Microsoft.EntityFrameworkCore;
 
 namespace DemoServerAppForHMAC
@@ -22,6 +23,12 @@ namespace DemoServerAppForHMAC
                 options.UseSqlServer(builder.Configuration.GetConnectionString("ServerDBConfig"));
             });
 
+            // Adding In-Memory Cache
+            builder.Services.AddMemoryCache();
+
+            // Adding the ClientService
+            builder.Services.AddScoped<Models.Services.ClientService>();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -32,6 +39,9 @@ namespace DemoServerAppForHMAC
             }
 
             app.UseHttpsRedirection();
+
+            //Register the HMAC Middleware
+            app.UseMiddleware<HMACAuthMiddleware>();
 
             app.UseAuthorization();
 
